@@ -1,0 +1,252 @@
+* {
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+body {
+  background-color: #1e0602;
+  color: #e6dec5;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_pentagons {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  width: 100vw;
+  height: 240px;
+}
+
+.header_logo {
+  position: absolute;
+  height: 240px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.trailer {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.intro-section {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+em {
+  color: #fedc60;
+  font-style: normal;
+}
+
+.display-3 {
+  color: #e91402;
+}
+
+p {
+  font-size: 32px;
+  padding: 60px;
+}
+
+.btn {
+  background-color: #bb1000;
+  border-color: #bb1000;
+  color: #e6dec5;
+  -webkit-appearance: none;
+}
+
+.btn:hover {
+  background-color: #e91402;
+  border-color: #e91402;
+  color: #fedc60;
+}
+
+.feature-row {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.container-lg {
+  padding: 0px;
+}
+
+.row-forward {
+  flex-direction: column;
+  background-color: #630c00;
+}
+
+.row-reverse {
+  flex-direction: column-reverse;
+  padding-top: 0px;
+}
+
+.stay-in-touch {
+  flex-direction: column;
+}
+
+.laurels-section {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.laurel-image {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+footer {
+  background-color: #420800;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #f18d52;
+  padding: 20px;
+}
+
+.footer-link {
+  margin: 30px;
+  color: #e6dec5;
+  font-size: 32px;
+}
+
+.footer-link:hover {
+  color: #fedc60;
+  text-decoration: none;
+}
+
+form {
+  font-size: 30px;
+  padding: 40px;
+}
+
+form .form-control {
+  font-size: 30px;
+  height: 70px;
+  background-color: #e6dec5;
+  color: black;
+}
+
+.form-control:focus  {
+  background-color: #e6dec5;
+  color: black;
+  border-style: none;
+}
+
+.sized-button {
+  height: 100px;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.col-sm  {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.discord-steam-links-section {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 992px) {
+
+  p {
+    font-size: 22px;
+  }
+
+  .trailer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .laurel-image {
+    width: 30%;
+    padding: 30px;
+  }
+
+  .h3 {
+    font-size: 30px;
+  }
+
+  .feature-row {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+  }
+
+  .row-forward {
+    flex-direction: row;
+  }
+  
+  .row-reverse {
+    flex-direction: row;
+    background-color: #630c00;
+  }
+
+  .col-sm  {
+    padding: 20px;
+  }
+
+  .feature-text {
+    margin-top: 5%;
+  }
+
+  .stay-in-touch {
+    flex-direction: row;
+  }
+
+  form {
+    font-size: 18px;
+    padding: 0px;
+  }
+  
+  form .form-control {
+    height: 30px;
+    font-size: 18px;
+  }
+  
+  .sized-button {
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .discord-steam-links-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .discord-steam-links-btn {
+    min-width: 300px;
+    height: 60px;
+    font-size: 24px;
+  }
+}
