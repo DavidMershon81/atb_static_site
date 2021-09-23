@@ -20,26 +20,68 @@ header {
   display: block;
   object-fit: cover;
   width: 100vw;
-  height: 240px;
+  height: 140px;
 }
 
 .header_logo {
   position: absolute;
-  height: 240px;
+  height: 140px;
 }
 
 section {
   margin-bottom: 60px;
 }
 
+.trailer-section  {
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .trailer {
+  display: block;
   width: 100%;
-  margin-top: 50px;
 }
 
 .intro-section {
-  padding-top: 20px;
-  padding-bottom: 0px;
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.steam-wishlist-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steam-widget {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  padding-top: 240px;
+}
+
+.steam-widget iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.discord-steam-links-btn {
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  padding: 12px;
 }
 
 em {
@@ -57,8 +99,8 @@ p {
 }
 
 .btn {
-  background-color: #bb1000;
-  border-color: #bb1000;
+  background-color: #ac1b0e;
+  border-color: #ac1b0e;
   color: #e6dec5;
   -webkit-appearance: none;
 }
@@ -66,7 +108,7 @@ p {
 .btn:hover {
   background-color: #e91402;
   border-color: #e91402;
-  color: #fedc60;
+  color: #eeb766;
 }
 
 .feature-row {
@@ -182,11 +224,6 @@ form .form-control {
     font-size: 22px;
   }
 
-  .trailer {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
   .laurel-image {
     width: 30%;
     padding: 30px;
@@ -238,15 +275,37 @@ form .form-control {
     margin-top: 10px;
   }
 
-  .discord-steam-links-section {
+  .trailer-section  {
+    margin-top: 30px;
+    flex-direction: row;
+  }
+  
+  .trailer {
+    width: 650px;
+  }
+  
+  .intro-section {
+    padding-top: 0px;
+    padding-left: 10px
+  }
+
+  .steam-wishlist-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: left;
+    margin-top: 30px;
   }
 
   .discord-steam-links-btn {
-    min-width: 300px;
-    height: 60px;
+    width: 300px;
+    height: 100px;
     font-size: 24px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+  }
+
+  .steam-widget {
+    width: 650px;
   }
 }
